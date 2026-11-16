@@ -1,0 +1,44 @@
+{
+  "name": "punch-duel",
+  "version": "1.0.0",
+  "description": "Boxing game for your terminal. Punch, kick, block and parry against the CPU on Normal or Hard.",
+  "type": "module",
+  "bin": {
+    "punch-duel": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "tsc"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "game",
+    "boxing",
+    "boxing-game",
+    "kickboxing",
+    "fight",
+    "fighting-game",
+    "punch",
+    "punch-game",
+    "punch-duel",
+    "kickbox-duel",
+    "boxing-duel",
+    "terminal",
+    "terminal-game",
+    "cli",
+    "cli-game"
+  ],
+  "author": "silentcoding",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2"
+  }
+}
